@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5822d6db93fb4038",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,8 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2875cc25b8f4a998",
+  "active": "d7ab2a78adcbabfc",
   "lastOpenFiles": [
-    "Welcome.md"
+    "TypeScript/Hello.md",
+    "Welcome.md",
+    "TypeScript",
+    "TypeScript"
   ]
 }
