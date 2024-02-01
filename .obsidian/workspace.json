@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2875cc25b8f4a998",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5822d6db93fb4038",
+            "id": "248731d167968703",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,10 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7ab2a78adcbabfc",
+  "active": "248731d167968703",
   "lastOpenFiles": [
+    "_templates/Article.md",
     "TypeScript/Hello.md",
     "Welcome.md",
+    "_templates",
     "TypeScript",
     "TypeScript"
   ]
