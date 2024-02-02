@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Docker의 데이터 관리 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0a04bbb82db9ccc6",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Docker의 데이터 관리 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "Docker의 데이터 관리 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "Docker의 데이터 관리 방법.md"
               }
             }
           }
@@ -149,7 +150,7 @@
   "active": "248731d167968703",
   "lastOpenFiles": [
     "_templates/Article.md",
-    "Welcome.md",
+    "Docker의 데이터 관리 방법.md",
     "TypeScript/Hello.md",
     "_templates",
     "TypeScript",

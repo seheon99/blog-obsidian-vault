@@ -4,7 +4,10 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "description": "text",
-    "kjhjlk": "checkbox",
-    "publish": "checkbox"
+    "kjhjlk": "datetime",
+    "publish": "checkbox",
+    "publish-time": "datetime",
+    "published-at": "datetime",
+    "updated-at": "datetime"
   }
 }
