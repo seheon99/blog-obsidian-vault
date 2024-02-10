@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1c44812b600ca60b",
+        "id": "521aa21be4a1749f",
         "type": "tabs",
         "children": [
           {
-            "id": "248731d167968703",
+            "id": "8ab583f39623ce17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manage data in Docker.md",
+                "file": "Traefik.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manage data in Docker.md",
+                "file": "Traefik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manage data in Docker.md",
+                "file": "Traefik.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manage data in Docker.md"
+                "file": "Traefik.md"
               }
             }
           }
@@ -146,10 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "248731d167968703",
+  "active": "8ab583f39623ce17",
   "lastOpenFiles": [
-    "_templates/Article.md",
+    "Traefik.md",
+    "_resources",
+    "_resources/1.png",
     "Manage data in Docker.md",
+    "_templates/Article.md",
     "TypeScript/Hello.md",
     "_templates",
     "TypeScript",
