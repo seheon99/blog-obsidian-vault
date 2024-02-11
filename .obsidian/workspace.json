@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Traefik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Traefik.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Traefik.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -146,8 +144,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ab583f39623ce17",
+  "active": "d7ab2a78adcbabfc",
   "lastOpenFiles": [
+    "Untitled.md",
     "Traefik.md",
     "_resources",
     "_resources/1.png",
