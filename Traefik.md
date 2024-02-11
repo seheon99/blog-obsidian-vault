@@ -14,4 +14,4 @@ description: Traefik은 인터넷 트래픽을 다루는 프로그램입니다.
 
 ![[1.png]]
 
-<div style="width: 400px; height: 300px; background-color: red" />
+<div style={{ width: '400px', height: '300px', backgroundColor: 'red' }} />
