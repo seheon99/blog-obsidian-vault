@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "521aa21be4a1749f",
+        "id": "0a86cfaf905aa52d",
         "type": "tabs",
         "children": [
           {
-            "id": "8ab583f39623ce17",
+            "id": "caef8e2fef80d59e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manage data in Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "123012925f653078",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "GitHub/GitHub Deployments.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "GitHub/GitHub Deployments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "GitHub/GitHub Deployments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "GitHub/GitHub Deployments.md"
               }
             }
           }
@@ -159,12 +147,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "123012925f653078",
+  "active": "caef8e2fef80d59e",
   "lastOpenFiles": [
-    "Manage data in Docker.md",
+    "Untitled",
+    "GitHub",
+    "GitHub/GitHub Deployments.md",
+    "Apollo Client Developer Tools.md",
     "Traefik.md",
+    "2024-02-12.md",
+    "Manage data in Docker.md",
     "conflict-files-obsidian-git.md",
-    "Untitled.md",
     "_resources",
     "_resources/1.png",
     "_templates/Article.md",

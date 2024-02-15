@@ -1,0 +1,11 @@
+@property --line-height-normal {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 2.25;
+}
+
+@property --line-height-tight {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 1.5;
+}
