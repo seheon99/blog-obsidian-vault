@@ -1,7 +1,7 @@
 ---
 title: GitHub Deployments
 publish: true
-tags:
+topics:
   - GitHub-API
   - GitHub-Webhook
 description: GitHub의 Deployments

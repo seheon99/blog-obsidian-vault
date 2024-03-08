@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0a86cfaf905aa52d",
+        "id": "7d2b3c9c2164b2f6",
         "type": "tabs",
         "children": [
           {
-            "id": "caef8e2fef80d59e",
+            "id": "aca2f8f2bb2ad84b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub/GitHub Deployments.md",
+                "file": "AWS/Amazon Elastic Container Service.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GitHub/GitHub Deployments.md",
+                "file": "AWS/Amazon Elastic Container Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GitHub/GitHub Deployments.md",
+                "file": "AWS/Amazon Elastic Container Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub/GitHub Deployments.md"
+                "file": "AWS/Amazon Elastic Container Service.md"
               }
             }
           }
@@ -147,19 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "caef8e2fef80d59e",
+  "active": "aca2f8f2bb2ad84b",
   "lastOpenFiles": [
-    "Untitled",
-    "GitHub",
+    "_templates/Article.md",
     "GitHub/GitHub Deployments.md",
-    "Apollo Client Developer Tools.md",
+    "GitHub/Deploy on AWS with GHA workflow.md",
+    "AWS/Amazon Elastic Container Service.md",
     "Traefik.md",
-    "2024-02-12.md",
     "Manage data in Docker.md",
+    "Apollo Client Developer Tools.md",
+    "JavaScript/Closures.md",
+    "AWS",
+    "JavaScript",
+    "GitHub",
+    "2024-02-12.md",
     "conflict-files-obsidian-git.md",
     "_resources",
     "_resources/1.png",
-    "_templates/Article.md",
     "TypeScript/Hello.md",
     "_templates",
     "TypeScript",
