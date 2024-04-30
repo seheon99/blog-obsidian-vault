@@ -1,8 +1,0 @@
-Amazon ECS is a **fully managed container orchestration service** that helps you easily deploy, manage, and scale containerized applications. As a fully managed service, Amazon ECS comes with AWS configuration and operational best practices built-in. It's integrated with both AWS and third-party tools, such as Amazon Elastic Container Registry and Docker. This integration makes it easier for teams to focus on building the applications, not the environment. You can run and scale your container workloads across AWS Regions in the cloud, and on-premises, without the complexity of managing a control plane.
-## Amazon ECS terminology and components
-There are three layers in Amazon ECS:
-- Capacity: The infrastructure where your containers run like EC2, Fargate, or On-premises VM
-- Controller: Deploy and manage your applications that run on. The Amazon ECS scheduler is the software that manages your applications.
-- Provisioning: The tools that you can use to interface with the scheduler to deploy and manage your applications and containers like AWS Management Console, AWS CLI, AWS SDKs, Copilot, and AWS CDK
-## Application lifecycle
-You must architect your applications so that they can run on *containers*. A container is a standardized unit of software development that holds everything that your software application requires to run. This includes relevant code, runtime, system tools, and system libraries. Containers are created from a read-only template that's called an *image*. Images are typically built from a Dockerfile. A Dockerfile is a plaintext file that specifies all of the components that are included in the container. After they're built, these images are stored in a *registry* such as Amazon ECR where they can be downloaded from.

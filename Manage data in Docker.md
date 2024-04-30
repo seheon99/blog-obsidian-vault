@@ -1,6 +1,5 @@
 ---
 title: Docker의 데이터 관리 방법
-publish: true
 topics:
   - Docker
 description: Docker에는 파일을 영구적으로 저장하는 두가지 방법, 볼륨과 바인드 마운트가 있습니다. 그리고 메모리 안에 파일을 저장하는 방법도 있습니다.
