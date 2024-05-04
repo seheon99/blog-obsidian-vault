@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "91f41163e11f101a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Iteration Protocol.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0a04bbb82db9ccc6",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Symbol.md",
+                "file": "JavaScript/Iteration Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Symbol.md",
+                "file": "JavaScript/Iteration Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Symbol.md"
+                "file": "JavaScript/Iteration Protocol.md"
               }
             }
           }
@@ -159,13 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84b753b85c7eb7ee",
+  "active": "91f41163e11f101a",
   "lastOpenFiles": [
-    "JavaScript",
-    "GraphQL.md",
     "JavaScript/Symbol.md",
-    "_templates/Article.md",
+    "GraphQL.md",
     "Manage data in Docker.md",
+    "JavaScript/Iteration Protocol.md",
+    "JavaScript",
+    "_templates/Article.md",
     "_templates",
     "Traefik.md",
     "Apollo Client Developer Tools.md",
