@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript Symbol.md",
+                "file": "JavaScript/Symbol.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript Symbol.md",
+                "file": "JavaScript/Symbol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript Symbol.md",
+                "file": "JavaScript/Symbol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript Symbol.md"
+                "file": "JavaScript/Symbol.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "84b753b85c7eb7ee",
   "lastOpenFiles": [
+    "JavaScript",
     "GraphQL.md",
-    "JavaScript Symbol.md",
+    "JavaScript/Symbol.md",
     "_templates/Article.md",
     "Manage data in Docker.md",
     "_templates",
