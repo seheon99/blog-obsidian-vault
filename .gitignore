@@ -76,3 +76,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux
+
+# Obsidian personal settings
+.obsidian/workspace.json
+.obsidian/app.json
+.obsidian/appearance.json
