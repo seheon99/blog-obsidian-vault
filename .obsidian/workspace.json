@@ -4,39 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "29ffec0559c9bfab",
+        "id": "0a86cfaf905aa52d",
         "type": "tabs",
         "children": [
           {
-            "id": "102da56a58e446e4",
+            "id": "caef8e2fef80d59e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manage Data in Docker.md",
+                "file": "GitHub/GitHub Deployments.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Manage Data in Docker"
-            }
-          },
-          {
-            "id": "3faec6a98127355d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Upstream Branch.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Upstream Branch"
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,11 +38,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -74,9 +54,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -84,17 +62,15 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0a04bbb82db9ccc6",
@@ -110,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Upstream Branch.md",
+                "file": "GitHub/GitHub Deployments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,9 +94,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Upstream Branch"
+              }
             }
           },
           {
@@ -129,11 +103,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "GitHub/GitHub Deployments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
+              }
             }
           },
           {
@@ -143,12 +116,8 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+                "useHierarchy": true
+              }
             }
           },
           {
@@ -157,12 +126,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
+                "file": "GitHub/GitHub Deployments.md"
+              }
             }
           }
         ]
@@ -174,7 +139,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,36 +147,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3faec6a98127355d",
+  "active": "caef8e2fef80d59e",
   "lastOpenFiles": [
-    "Manage Data in Docker.md",
-    "GraphQL.md",
-    "JavaScript/Symbol.md",
-    "JavaScript/Iteration Protocol.md",
-    "Algorithms/Segment Tree.md",
-    "Upstream Branch.md",
-    "_templates/Article.md",
-    "Untitled 1.md",
-    "Untitled 2.md",
-    "Untitled 2.base",
-    "Untitled.base",
-    "Untitled 1.base",
-    "JavaScript",
-    "_templates",
-    "Traefik.md",
-    "Apollo Client Developer Tools.md",
-    "JavaScript/Closures.md",
-    "GitHub/GitHub Deployments.md",
-    "GitHub/Deploy on AWS with GHA workflow.md",
-    "AWS/Amazon Elastic Container Service.md",
-    "AWS",
-    "JavaScript",
+    "Untitled",
     "GitHub",
+    "GitHub/GitHub Deployments.md",
+    "Apollo Client Developer Tools.md",
+    "Traefik.md",
     "2024-02-12.md",
+    "Manage data in Docker.md",
     "conflict-files-obsidian-git.md",
     "_resources",
     "_resources/1.png",
+    "_templates/Article.md",
     "TypeScript/Hello.md",
+    "_templates",
+    "TypeScript",
     "TypeScript"
   ]
 }
