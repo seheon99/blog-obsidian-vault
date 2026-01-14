@@ -1,6 +1,5 @@
 ---
-title:
+title: "{{title}}"
 topics:
 description:
-updated-at:
 ---

@@ -1,5 +1,5 @@
 ---
-title: Segment Tree
+title: 세그먼트 트리 (Segment Tree)
 topics:
   - Algorithm
   - Data Structure
