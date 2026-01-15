@@ -1,0 +1,18 @@
+# .github/workflows/notify-blog.yml
+name: Notify Blog Repo
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger blog releaser
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.BLOG_WORKFLOWS_PAT }}" \
+            https://api.github.com/repos/seheon99/blog/dispatches \
+            -d '{"event_type":"content_updated"}'

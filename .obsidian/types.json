@@ -8,6 +8,7 @@
     "publish": "checkbox",
     "publish-time": "datetime",
     "published-at": "datetime",
-    "updated-at": "datetime"
+    "updated-at": "datetime",
+    "createdAt": "datetime"
   }
 }

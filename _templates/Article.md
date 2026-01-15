@@ -1,6 +1,5 @@
 ---
-title: 
-publish: false
-tags: 
+title: "{{title}}"
+topics:
 description:
 ---
