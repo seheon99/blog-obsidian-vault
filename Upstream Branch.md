@@ -16,8 +16,8 @@ git push -u origin feature/login
 	- 기존 흐름을 **upstream** 이라고 부른다
 - 이 설정은 `branch.<name>.remote` 와 `branch.<name>.merge` 로 `.git/config` 에 저장된다
 - 이 설정을 통해 Git은 `git status` 과 `git branch -vv` 에서 현재 브랜치의 기준점을 잡고 ahead, behind 정보를 계산한다
-	- **ahead** 는 `dev` 브랜치에만 있는 커밋
-	- **behind** 는 `origin/dev` 에만 있는 커밋
+	- **ahead** 는 새로운 브랜치에만 있는 커밋
+	- **behind** 는 기존 브랜치에만 있는 커밋
 	- 평소에 ahead, behind 수가 생각과 다르게 나왔다면 업스트림 설정을 안한 것!!
 ```
 Your branch is ahead of 'origin/dev' by 2 commits.
