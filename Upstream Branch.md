@@ -2,7 +2,7 @@
 title: Git의 Upstream Branch
 topics:
   - Git
-description: 브랜치를 만들고 `git push -u origin branch` 는 왜 하는걸까?
+description: 새 브랜치를 만들 때면 항상 업스트림 설정을 한다. 업스트림은 왜 설정할까?
 createdAt: 2026-01-14T17:45:38+09:00
 ---
 
