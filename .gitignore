@@ -77,7 +77,27 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux
 
-# Obsidian personal settings
-.obsidian/workspace.json
+# Ignore all Obsidian configuration by default
+.obsidian/
+
+# But un-ignore specific configuration files you want to sync, if any:
+# !.obsidian/app.json
+# !.obsidian/appearance.json
+# !.obsidian/community-plugins.json
+# !.obsidian/core-plugins.json
+# !.obsidian/hotkeys.json
+# !.obsidian/plugins/your-plugin-settings.json
+
+# Ignore workspace-specific files (layout, search history, etc.)
+.obsidian/workspace*
+
+# Ignore application-specific files
 .obsidian/app.json
-.obsidian/appearance.json
+
+# Ignore system and editor files/folders
+.trash/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
