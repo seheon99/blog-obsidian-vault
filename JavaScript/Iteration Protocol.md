@@ -3,20 +3,25 @@ title: JavaScript의 Iteration Protocol
 topics:
   - JavaScript
 description: JavaScript의 통일된 순회 가능한 데이터
+createdAt: 2024-05-04T12:28:51+09:00
 ---
+
 ## Iteration Protocol
+
 - ES6에 등장한 순회 가능한 데이터 컬렉션을 만드는 규칙
 - Iterable Protocol과 Iterator Protocol이 있음
 - ES6 이전의 배열, 문자열, 유사 배열 객체 (Array-like Object), DOM 컬렉션 등을 통합하는 규칙
 - ES6의 순회 가능한 데이터 컬렉션은 `for ... of`, spread, destructuring 할당의 대상이 될 수 있음
-	```javascript
-	const iterable = [1, 2, 3, 4, 5];
-	for n of iterable {
-		console.log(n);
-	}
-	const new_iterable = [0, ...iterable];
-	const [n, ...others] = iterable;
-```
+  ```javascript
+  const iterable = [1, 2, 3, 4, 5];
+  for n of iterable {
+  	console.log(n);
+  }
+  const new_iterable = [0, ...iterable];
+  const [n, ...others] = iterable;
+  ```
+
+````
 ### Iterable Protocol
 - `Symbol.iterator` 을 프로퍼티 키로 갖는 메서드가 존재하는 객체
 - 해당 메서드는 iterator protocol을 준수하는 객체를 반환해야 한다!
@@ -54,4 +59,4 @@ const fibonacci = {
 
 const [n1, n2, n3] = fibonacci;
 console.log(n1, n2, n3); // 1 2 3
-```
+````

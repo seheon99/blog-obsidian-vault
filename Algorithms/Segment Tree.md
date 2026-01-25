@@ -4,7 +4,9 @@ topics:
   - Algorithm
   - Data Structure
 description: A Segment Tree is a data structure that stores information about array intervals as a tree.
+createdAt: 2026-01-13T20:05:28+09:00
 ---
+
 # 세그먼트 트리
 
 - **배열 구간(interval)** 에 대한 정보를 트리 형태로 저장하는 자료구조
@@ -17,6 +19,7 @@ description: A Segment Tree is a data structure that stores information about ar
 ## 세그먼트 트리의 가장 단순한 형태
 
 배열 $a[0 \dots n-1]$ 이 주어졌을 때, 세그먼트 트리는 다음을 지원해야 한다.
+
 - 인덱스 $l$ 과 $r$ 사이의 원소 합을 **$O(\log n)$ 시간**에 구하기
 - 배열의 원소 값 변경을 **$O(\log n)$ 시간**에 처리하기
   - 단순 배열은 원소 갱신은 $O(1)$ 이지만, 각 합 질의를 계산하는 데 $O(n)$ 이 필요함
