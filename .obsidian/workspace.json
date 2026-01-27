@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "29ffec0559c9bfab",
+        "id": "d5f73505e05d9ca6",
         "type": "tabs",
         "children": [
           {
-            "id": "102da56a58e446e4",
+            "id": "80fb063710edd96c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Manage Data in Docker.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Manage Data in Docker"
-            }
-          },
-          {
-            "id": "3faec6a98127355d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Upstream Branch.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Upstream Branch"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0a04bbb82db9ccc6",
@@ -183,14 +163,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3faec6a98127355d",
+  "active": "d7ab2a78adcbabfc",
   "lastOpenFiles": [
     "Manage Data in Docker.md",
+    "Manage data in Docker.md",
+    "Upstream Branch.md",
     "GraphQL.md",
     "JavaScript/Symbol.md",
     "JavaScript/Iteration Protocol.md",
     "Algorithms/Segment Tree.md",
-    "Upstream Branch.md",
     "_templates/Article.md",
     "Untitled 1.md",
     "Untitled 2.md",
