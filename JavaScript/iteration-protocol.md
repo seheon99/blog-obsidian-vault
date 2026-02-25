@@ -5,7 +5,6 @@ topics:
 description: JavaScript의 통일된 순회 가능한 데이터
 createdAt: 2024-05-04T12:28:51+09:00
 ---
-
 ## Iteration Protocol
 
 - ES6에 등장한 순회 가능한 데이터 컬렉션을 만드는 규칙

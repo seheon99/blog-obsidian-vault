@@ -6,7 +6,6 @@ topics:
 description: A Segment Tree is a data structure that stores information about array intervals as a tree.
 createdAt: 2026-01-13T20:05:28+09:00
 ---
-
 # 세그먼트 트리
 
 - **배열 구간(interval)** 에 대한 정보를 트리 형태로 저장하는 자료구조

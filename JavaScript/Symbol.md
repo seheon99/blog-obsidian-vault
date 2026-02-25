@@ -5,7 +5,6 @@ topics:
 description: ES6에서 도입된 변경 불가능한 원시 타입의 값
 createdAt: 2024-05-04T12:00:15+09:00
 ---
-
 ## JavaScript의 타입들
 
 - `string`, `number`, `boolean`, `undefined`, `null`, `object`

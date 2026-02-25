@@ -5,15 +5,12 @@ topics:
 description: 새 브랜치를 만들 때면 항상 업스트림 설정을 한다. 업스트림은 왜 설정할까?
 createdAt: 2026-01-14T17:45:38+09:00
 ---
-
 ```bash
 git checkout -b feature/login
 git push -u origin feature/login
 ```
 
-새 브랜치를 만들 때면 항상 업스트림 설정을 한다. 업스트림은 왜 설정할까?
-
-## Upstream
+# Upstream
 
 - Git은 브랜치를 흐름(stream)에 비유한다
   - 새로운 브랜치를 만들면 기존 흐름에 이어지는 새로운 흐름을 만들고
