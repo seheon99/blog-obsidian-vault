@@ -20,25 +20,29 @@ createdAt: 2024-05-04T12:28:51+09:00
   const [n, ...others] = iterable;
   ```
 
-````
 ### Iterable Protocol
 - `Symbol.iterator` 을 프로퍼티 키로 갖는 메서드가 존재하는 객체
 - 해당 메서드는 iterator protocol을 준수하는 객체를 반환해야 한다!
+
 ### Iterator Protocol
 - `{ value, done }` 를 반환하는 `next` 메서드를 가짐
 	- `value` 는 순회 중인 이터러블의 값
 	- `done` 은 이터러블의 순회 완료 여부를 나타내는 값
+
 ## 빌드인 이터러블
 - `Array`, `String`, `Map`, `Set`, `TypedArray`, `arguments`, DOM 컬렉션은 모두 이터러블
 	- `for ... of`, spread, destructuring 할당 가능하다!
+
 ## 유사 배열 객체
 - 배열처럼 인덱스로 프로퍼티 값에 접근할 수 있고 `length` 프로퍼티를 갖는 객체
 - `Symbol.iterable` 메서드가 없다면 `for ... of` 로 접근 불가능
 - `Array.from` 을 통해 이터러블 객체로 변환 가능
+
 ## 지연 평가
 - 데이터가 필요한 시점 이전까지는 데이터를 생성하지 않다가 필요한 시점에 생성하는 기법
 - 이터러블을 소비하는 대부분의 방법은 `next` 가 평가되기 전까지는 데이터를 생성하지 않는 지연 평가 사용
 	- `for ... of`, destructuring 할당 등
+
 ## 커스텀 이터러블 구현
 ```javascript
 const fibonacci = {
@@ -58,4 +62,4 @@ const fibonacci = {
 
 const [n1, n2, n3] = fibonacci;
 console.log(n1, n2, n3); // 1 2 3
-````
+```
