@@ -12,6 +12,8 @@ LLM은 강력하지만 근본적인 한계가 있다. **자신이 모르는 것�
 
 Retrieval-Augmented Generation(RAG)은 이 문제에 대한 가장 실용적인 해법 중 하나다. 학습 시점에 모델이 정보를 외우기를 기대하는 대신, 질의 시점에 관련 컨텍스트를 검색해 모델의 입력에 함께 주입한다. 모델은 자신의 파라메트릭 기억(parametric memory)에만 의존하지 않고, 검색된 컨텍스트에 **근거(grounded)** 한 답을 생성한다.
 
+![[retrieval-augmented-generation.svg|650]]
+
 ## RAG가 해결하려는 문제
 
 LLM 단독 사용에는 네 가지 구조적 한계가 있다.
@@ -31,28 +33,10 @@ RAG는 이 네 가지를 **모델 외부의 검색 가능한 지식 저장소**�
 
 RAG는 크게 두 단계로 나뉜다.
 
-```mermaid
-flowchart LR
-    subgraph Indexing["Indexing Phase (offline)"]
-        D[Documents] --> CH[Chunking]
-        CH --> EM1[Embedding Model]
-        EM1 --> VS[(Vector Store)]
-    end
+- **Indexing Phase (offline)**: 문서를 청크로 분할하고 임베딩해 벡터 저장소에 넣는 사전 처리 단계
+- **Query Phase (online)**: 사용자 질의를 임베딩해 관련 청크를 검색하고, LLM에 컨텍스트로 주입해 답을 생성하는 실시간 단계
 
-    subgraph Query["Query Phase (online)"]
-        Q[User Query] --> EM2[Embedding Model]
-        EM2 --> R[Retriever]
-        VS --> R
-        R --> RR[Reranker]
-        RR --> P[Prompt Builder]
-        Q --> P
-        P --> LLM[LLM]
-        LLM --> A[Answer]
-    end
-```
-
-- **Indexing Phase**: 문서를 청크로 분할하고 임베딩해 벡터 저장소에 넣는 사전 처리 단계
-- **Query Phase**: 사용자 질의를 임베딩해 관련 청크를 검색하고, LLM에 컨텍스트로 주입해 답을 생성하는 실시간 단계
+두 단계는 동일한 임베딩 모델을 공유하며, **벡터 저장소가 두 단계를 잇는 유일한 접점**이다. 인덱싱은 한 번 수행하고 변경된 문서만 갱신하는 반면, 질의는 사용자 요청마다 실시간으로 일어난다.
 
 ## Indexing Phase
 
@@ -67,6 +51,8 @@ flowchart LR
 - 청크의 크기와 경계가 RAG 품질의 절반을 결정함
 - 너무 작으면 의미가 단편화되고, 너무 크면 임베딩이 흐려져 검색 정확도가 떨어짐
 - 주요 전략은 네 가지
+
+![[retrieval-augmented-generation-chunking_strategies.svg|650]]
 
 |전략|설명|장점|약점|
 |---|---|---|---|
