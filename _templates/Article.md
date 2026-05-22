@@ -1,5 +1,4 @@
 ---
-type:
 title:
 type:
 topics:

@@ -1,6 +1,6 @@
 ---
-type: til
 title:
+type: til
 topics:
 description:
 createdAt:
