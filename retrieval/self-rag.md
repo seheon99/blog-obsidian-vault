@@ -1,5 +1,6 @@
 ---
 title: Self-RAG
+type: note
 topics:
   - LLM
   - Retrieval
@@ -33,10 +34,3 @@ createdAt: 2026-05-03T14:30:00
 - **Reflection token 자체가 hallucinate될 수 있음**: 모델이 자신의 무지를 모르는 calibration 문제는 그대로 남는다. `[Retrieve=No]` 가 틀릴 수 있다
 - **학습 데이터 의존**: reflection token에 supervised signal이 필요해 표준 RAG보다 학습 복잡도 높음
 - **검색 결정이 단일 단계**: 여러 차례 반복적 검색이 필요한 multi-hop 질의에는 [[agentic-retrieval]] 같은 더 일반화된 접근이 더 적합
-
-## 같이 보기
-
-- [[retrieval-augmented-generation]]
-- [[agentic-retrieval]] — Self-RAG를 더 일반화한 패턴
-- [[agentic-ai-stack]]
-- [[llm-as-retrieval]] — index

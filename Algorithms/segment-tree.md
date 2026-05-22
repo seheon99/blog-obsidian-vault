@@ -1,5 +1,6 @@
 ---
 title: 세그먼트 트리 (Segment Tree)
+type: note
 topics:
   - Algorithm
   - Data Structure

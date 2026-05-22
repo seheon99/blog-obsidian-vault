@@ -1,5 +1,6 @@
 ---
 title: LLM as Retrieval
+type: write-up
 topics:
   - LLM
   - RAG
@@ -110,15 +111,3 @@ RAG가 살아남는 위치는 두 곳으로 좁혀진다.
 
 - 인용이 시스템 요구사항인 도메인 (법률, 의료, 규제 금융) — 검색이 명시적·추적 가능한 단계여야 함
 - Context window를 초과하는 corpus (수십 GB+) — 압축이 본질적으로 필요
-
-## 같이 보기
-
-- [[retrieval-augmented-generation]]
-- [[agentic-ai-stack]]
-- [[parametric-retrieval]]
-- [[agentic-retrieval]]
-- [[gen-read]]
-- [[hyde]]
-- [[self-rag]]
-- [[llm-reranker]]
-- [[llm-embedding-models]]

@@ -1,5 +1,6 @@
 ---
 title: LLM Reranker
+type: note
 topics:
   - LLM
   - Retrieval
@@ -31,10 +32,3 @@ Retrieval은 **recall**을 위해 후보를 넓게 가져온다 (top-50, top-100
 - **Latency 증가**: 매 질의마다 추가 LLM 호출
 - **비용**: top-k가 클수록 호출 횟수 또는 입력 토큰 증가
 - **Listwise는 컨텍스트 윈도우 제약**: 후보 문서가 많으면 한 번에 못 봄
-
-## 같이 보기
-
-- [[retrieval-augmented-generation]]
-- [[hyde]] — 검색 *전* 단계에서 LLM이 개입하는 변형
-- [[llm-embedding-models]] — 검색 단계 자체에 LLM이 들어간 형태
-- [[llm-as-retrieval]] — index

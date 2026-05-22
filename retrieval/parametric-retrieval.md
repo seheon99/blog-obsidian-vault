@@ -1,5 +1,6 @@
 ---
 title: Parametric Retrieval
+type: note
 topics:
   - LLM
   - Retrieval
@@ -31,9 +32,3 @@ createdAt: 2026-05-03T14:30:00
 - **Confabulation**: 모르는 사실에 대해 그럴듯한 거짓을 자신감 있게 생성
 - **Calibration 실패**: 모델이 자신이 모른다는 것을 모름. "I don't know" 라는 응답이 자연스럽지 않음
 - **Sycophancy**: 사용자의 잘못된 전제에 동조하는 경향
-
-## 같이 보기
-
-- [[gen-read]] — parametric memory를 명시적 배경 문서 형태로 변환하는 변형
-- [[retrieval-augmented-generation]] — 외부 검색을 결합한 보완적 접근
-- [[llm-as-retrieval]] — index

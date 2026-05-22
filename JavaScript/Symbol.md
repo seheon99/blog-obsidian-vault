@@ -1,5 +1,6 @@
 ---
 title: JavaScript의 Symbol
+type: note
 topics:
   - JavaScript
 description: ES6에서 도입된 변경 불가능한 원시 타입의 값

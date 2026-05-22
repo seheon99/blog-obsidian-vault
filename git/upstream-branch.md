@@ -1,5 +1,6 @@
 ---
 title: Git의 Upstream Branch
+type: write-up
 topics:
   - Git
 description: 새 브랜치를 만들 때면 항상 업스트림 설정을 한다. 업스트림은 왜 설정할까?

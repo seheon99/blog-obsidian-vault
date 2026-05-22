@@ -1,5 +1,6 @@
 ---
 title: Agentic Retrieval
+type: note
 topics:
   - LLM
   - Retrieval
@@ -35,10 +36,3 @@ createdAt: 2026-05-03T14:30:00
 ## 실제 사례
 
 Warp는 코드 검색에서 이 패턴을 명시적으로 채택했다. `SearchCodebase` 한 곳만 RAG이고, `Grep`, `FileGlob`, `ReadFiles`, `ReadDocuments` 등 다른 모든 검색은 agentic — LLM이 결정론적 tool을 직접 호출한다. 코드 식별자가 토큰 자체에 의미를 담기 때문에 embedding 검색보다 grep이 더 정확한 케이스다.
-
-## 같이 보기
-
-- [[retrieval-augmented-generation]] — 대안적 검색 모달리티
-- [[agentic-ai-stack]] — 에이전트 시스템의 일반적 맥락
-- [[self-rag]] — agentic retrieval의 좁은 변형
-- [[llm-as-retrieval]] — index

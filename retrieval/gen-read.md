@@ -1,5 +1,6 @@
 ---
 title: GenRead
+type: note
 topics:
   - LLM
   - Retrieval
@@ -28,9 +29,3 @@ LLM이 학습 데이터에서 흡수한 지식을 압축해 단일 배경 문서
 - **출처 추적 불가**: 가상 문서는 진짜 출처가 아님
 - **컨텍스트 길이 비용**: 생성된 배경 문서가 길어지면 EMNLP 2025의 "input length 자체가 성능을 저하시킴" 영향을 받음
 - **Hallucination이 한 단계 더 들어감**: 답변뿐 아니라 배경 문서 자체도 hallucinate될 수 있음
-
-## 같이 보기
-
-- [[parametric-retrieval]] — 가상 문서를 만들지 않고 직접 응답
-- [[hyde]] — 가상 문서를 검색 쿼리로 사용하는 변형 (외부 검색 유지)
-- [[llm-as-retrieval]] — index
