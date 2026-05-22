@@ -1,5 +1,6 @@
 ---
 title: Wazuh로 XDR/SIEM 플랫폼 구축하기
+type: write-up
 topics:
   - Wazuh
   - SIEM

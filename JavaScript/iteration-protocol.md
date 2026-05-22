@@ -1,5 +1,6 @@
 ---
 title: JavaScript의 Iteration Protocol
+type: note
 topics:
   - JavaScript
 description: JavaScript의 통일된 순회 가능한 데이터

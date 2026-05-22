@@ -1,5 +1,6 @@
 ---
 title: "RAG: What it is, How it works, and Where it breaks"
+type: write-up
 topics:
   - RAG
   - LLM

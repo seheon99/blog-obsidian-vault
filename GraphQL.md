@@ -1,5 +1,6 @@
 ---
 title: GraphQL
+type: note
 topics:
   - GraphQL
 description: 웹 클라이언트가 서버로부터 데이터를 효율적으로 가져오기 위한 쿼리 언어

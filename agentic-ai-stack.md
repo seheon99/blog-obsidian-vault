@@ -1,5 +1,6 @@
 ---
 title: Agentic AI Stack
+type: write-up
 topics:
   - AI
   - Agent

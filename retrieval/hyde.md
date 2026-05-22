@@ -1,5 +1,6 @@
 ---
 title: HyDE
+type: note
 topics:
   - LLM
   - Retrieval
@@ -33,10 +34,3 @@ createdAt: 2026-05-03T14:30:00
 - **잘못된 가상 답변은 검색을 망친다**: hallucinate된 가상 답변이 엉뚱한 방향으로 검색을 유도할 수 있음
 - **LLM 호출 비용 추가**: 매 질의마다 가상 답변 생성 비용 발생
 - **Latency 증가**: 검색 전 LLM round trip이 추가됨
-
-## 같이 보기
-
-- [[retrieval-augmented-generation]] — HyDE는 RAG의 query 단계 강화
-- [[gen-read]] — 외부 검색 없이 가상 문서만 사용하는 변형
-- [[llm-reranker]] — 검색 후 단계에서 LLM이 개입하는 변형
-- [[llm-as-retrieval]] — index

@@ -1,5 +1,6 @@
 ---
 title: LLM-based Embedding Models
+type: note
 topics:
   - LLM
   - Retrieval
@@ -32,9 +33,3 @@ createdAt: 2026-05-03T14:30:00
 - **임베딩 비용**: BERT 기반 임베딩보다 높음 — 인덱싱 시점 비용 증가
 - **차원 증가로 저장/검색 비용 상승**: ANN 인덱스 크기, 메모리 사용량 증가
 - **Fine-tuning 데이터 의존**: 도메인 특화 성능은 학습 데이터 품질에 좌우됨
-
-## 같이 보기
-
-- [[retrieval-augmented-generation]] — 임베딩이 사용되는 전체 파이프라인
-- [[llm-reranker]] — 임베딩 검색 *후* 단계에서 LLM이 개입
-- [[llm-as-retrieval]] — index
