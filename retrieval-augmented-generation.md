@@ -1,12 +1,12 @@
 ---
-title: "RAG: What it is, How it works, and Where it breaks"
 type: write-up
+title: "RAG: What it is, How it works, and Where it breaks"
+description: Retrieval-Augmented Generation의 동작 원리와 파이프라인을 정리하고, 실제로 깨지는 지점을 살펴본다
 topics:
   - RAG
   - LLM
   - AI
   - NLP
-description: Retrieval-Augmented Generation의 동작 원리와 파이프라인을 정리하고, 실제로 깨지는 지점을 살펴본다
 createdAt: 2026-03-17T12:50:00
 ---
 LLM은 강력하지만 근본적인 한계가 있다. **자신이 모르는 것을 모른다고 말하지 않는다.** 학습 데이터 바깥의 질문을 받으면 "잘 모르겠습니다" 라고 답하는 대신 그럴듯한 답을 자신감 있게 만들어낸다. 이 현상이 바로 **hallucination** 이고, LLM을 프로덕션에 투입하는 데 가장 큰 장벽이었다.

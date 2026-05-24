@@ -1,7 +1,7 @@
 ---
-title:
 type:
-topics:
+title:
 description:
+topics:
 createdAt:
 ---
