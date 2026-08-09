@@ -7,7 +7,7 @@ topics:
 description: AI 에이전트 시스템을 구성하는 기술 스택을 알아보자
 createdAt: 2026-03-30T10:21:00
 ---
-AI 에이전트가 빠르게 발전하면서 수많은 키워드가 쏟아져 나온다. Agent Sandbox CRD, Dynamic Workers, AIO Sandbox 등의 서비스들이 어떤 문제를 해결하려 하는건지 모르겠다. Agentic AI System의 정리된 레이어 모델을 찾아봤지만 5-layer, 7-layer, 9-layer, 11-category 등 제각각이고 표준으로 사용되는 모델이 없다. 이 글은 Agentic AI System을 가장 직관적으로 설명하는 5-layer 에 대해 설명하고, 시스템의 관제 가능성과 거버넌스를 정리한다.
+AI 에이전트가 빠르게 발전하는 것 같다. 에이전트가 스스로 판단하고 코드를 실행하는 환경을 더 안전하고 효율적이게 만드는 분야도 커지는 것 같다. 
 
 ![[agentic-ai-stack.svg|650]]
 

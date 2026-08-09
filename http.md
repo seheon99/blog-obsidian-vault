@@ -4,7 +4,7 @@ title: HTTP/0.9부터 HTTP/1.1까지
 description: 유럽의 입자물리 연구소에서 만들어진 HTTP
 topics:
   - Web
-createdAt:
+createdAt: 2026-05-18T16:00:00
 ---
 ## HTTP/0.9 (1991년)
 
