@@ -7,11 +7,9 @@ topics:
 description: AI 에이전트 시스템을 구성하는 기술 스택을 알아보자
 createdAt: 2026-03-30T10:21:00
 ---
-AI 에이전트가 빠르게 발전하는 것 같다. 에이전트가 스스로 판단하고 코드를 실행하는 환경을 더 안전하고 효율적이게 만드는 분야도 커지는 것 같다. 
+AI 에이전트가 빠르게 발전하는 것 같다. 에이전트가 스스로 판단하고 코드를 실행하는 환경을 더 안전하고 효율적이게 만드는 분야도 커지는 것 같다. 에이전트를 이해하기 위해 다섯 가지 레이어로 나누었다. Infrastructure, Foundation Models, Sandbox, Orchestration, Application, 그리고 Observability 와 Governance 도 여기저기 많이 등장한다.
 
-![[agentic-ai-stack.svg|650]]
-
-## Infrastructure Layer (#1)
+## Infrastructure
 - 에이전트의 물리적 논리적 기반이며, 가장 기초가 되는 레이어
 - 컴퓨터, 컨테이너 오캐스트레이션, 스토리지, 네트워킹으로 구성됨
 ### Compute
@@ -51,7 +49,7 @@ AI 에이전트가 빠르게 발전하는 것 같다. 에이전트가 스스로 
 > [!NOTE]
 > **Trust Propagation** 이란? 영화 기생충에 나온 것과 같이 과외 선생님 - 미술 선생님 - 운전 기사 - 가정부로 최초의 신뢰를 악용해 악의적인 의도가 전체 네트워크에 전파되는 것
 
-## Foundation Models Layer (#2)
+## Foundation Models
 
 ### Adaptable intelligence core
 - 모델 그 자체로, 다양한 모델로 교체 가능한 컴포넌트임
@@ -75,9 +73,7 @@ AI 에이전트가 빠르게 발전하는 것 같다. 에이전트가 스스로 
 > **"모델을 만드는 건 소수의 일이지만, 모델을 잘 쓰는 건 모든 엔지니어의 일이다."**
 > Foundation Model Layer는 모델의 성능을 논하는 것이 아닌, 모델을 교체 가능한 컴포넌트로 보고 비용-성능-가용성을 고려해 시스템을 설계하는 관점이다.
 
-## Sandbox Layer (#3)
-
-![[agentic-ai-stack-sandbox_runtime_architecture.svg|650]]
+## Sandbox
 - 에이전트가 생성한 코드를 어디서, 어떻게 실행할 지 담당하는 레이어
 - 에이전트가 동적으로 생성한 코드는 어떤 **사람**도 리뷰하지 않은 코드
 - 그렇기 때문에 존재하지 않는 패키지명을 만들기도 하고 악의적인 코드가 생성될 수도 있음
@@ -96,11 +92,8 @@ AI 에이전트가 빠르게 발전하는 것 같다. 에이전트가 스스로 
 		- 무한 루프를 제한하거나 무한한 리소스 사용을 제한하기 위해 `cgroup` 을 사용함
 		- 또한 TTL을 설정해 종료 후 자동 파기되도록 설정함
 
-## Orchestration Layer (#4)
+## Orchestration
 - 에이전트의 작업을 스케줄링하는 레이어
-
-![[agentic-ai-stack-orchestration_layer_anatomy.svg|650]]
-
 - **Agent Loop**: Observe(상태 인식) - Plan(다음 행동 결정) - Act(툴 호출, 코드 실행) - Reflect(평가, 종료 판단)
 	- **Observe**: 유저의 입력, 대화 기록, 실행 결과, 외부 데이터 등을 하나의 Context Window에 모아 현재 상태를 인식하는 단계
 	- **Plan**: LLM이 Context를 받아서 자연어로 추론한 뒤 구조화된 행동을 출력함
@@ -140,7 +133,7 @@ AI 에이전트가 빠르게 발전하는 것 같다. 에이전트가 스스로 
 		- 디버깅이 매우 어려움
 		- A2A가 이를 표준화한 프로토콜임
 
-## Application Layer (#5)
+## Application
 - 에이전트가 다른 시스템 또는 사용자와 만나는 접점
 - Infrastructure - Foundation Model - Sandbox - Orchestration 이 제공하는 능력을 실제 문제 해결에 바인딩하는 계층
 - 세 가지 특징을 가짐
